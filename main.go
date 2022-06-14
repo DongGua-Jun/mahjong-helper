@@ -2,7 +2,7 @@ package main
 
 import (
 	"flag"
-	"fmt"
+	//"fmt"
 	"github.com/EndlessCheng/mahjong-helper/util"
 	"github.com/EndlessCheng/mahjong-helper/util/model"
 	"github.com/fatih/color"
@@ -55,7 +55,7 @@ const (
 	platformTenhou  = 0
 	platformMajsoul = 1
 
-	defaultPlatform = platformMajsoul
+	defaultPlatform = platformTenhou
 )
 
 var platforms = map[int][]string{
